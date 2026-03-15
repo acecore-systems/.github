@@ -15,4 +15,3 @@ Web・業務システム開発とITスクール運営を展開する **Acecore**
 ## リンク
 
 - 🌐 [acecore.net](https://acecore.net)
-- 📧 info@acecore.net
