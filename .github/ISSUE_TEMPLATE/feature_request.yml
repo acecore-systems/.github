@@ -1,0 +1,34 @@
+name: 機能要望
+description: 新機能や意味のある改善を提案します。
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 課題
+      description: どの利用者またはメンテナーの課題を解決しますか？
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 望ましい結果
+      description: 完了時にどうなっているべきですか？
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: スコープ
+      description: 対象範囲と、意図的に対象外にする範囲を書いてください。
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 検討した代替案
+      description: 既存の回避策や別案があれば書いてください。
+  - type: textarea
+    id: verification
+    attributes:
+      label: 受け入れ確認
+      description: メンテナーはどのように完了を確認すべきですか？
