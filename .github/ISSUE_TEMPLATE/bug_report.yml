@@ -39,7 +39,7 @@ body:
     id: url
     attributes:
       label: 影響するURLまたはパス
-      placeholder: https://acecore.net/... or docs/...
+      placeholder: https://acecore.net/... または docs/...
   - type: textarea
     id: environment
     attributes:
