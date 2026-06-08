@@ -1,7 +1,6 @@
 name: 運用・デプロイ
 description: デプロイ、DNS、認証、GitHub Actions、外部サービス、公開後確認などの運用作業
 title: '[Ops] '
-labels: ['operations']
 body:
   - type: markdown
     attributes:
