@@ -1,52 +1,126 @@
-name: バグ報告
-description: 再現可能な不具合やリグレッションを報告します。
-title: "[Bug] "
-labels: ["bug"]
+name: 不具合報告
+description: 表示崩れ、動作不良、ビルド失敗、リグレッションなどを報告します。
+title: '[Bug] '
+labels: ['bug']
 body:
+  - type: markdown
+    attributes:
+      value: |
+        共通項目は他の issue template と同じ順序です。再現に必要な情報は、個別項目に具体的に書いてください。
+
   - type: textarea
     id: summary
     attributes:
       label: 概要
-      description: 何が問題ですか？
+      description: 何が起きているかを 1-3 行で書いてください。
+      placeholder: |
+        例: 設定画面で保存ボタンを押しても変更が反映されない。
     validations:
       required: true
+
   - type: textarea
-    id: expected
+    id: background
     attributes:
-      label: 期待される動作
-      description: 本来どうなるべきですか？
+      label: 背景・目的
+      description: どの利用者、運用、機能に影響するかを書いてください。
+      placeholder: |
+        例: 運用者が公開前に設定を変更できず、手作業で戻す必要がある。
     validations:
       required: true
+
   - type: textarea
-    id: actual
+    id: acceptance
     attributes:
-      label: 実際の動作
-      description: 実際にはどうなりますか？
+      label: 完了条件
+      description: レビュー時に完了判断できるチェックリストを書いてください。
+      placeholder: |
+        - [ ] 再現手順の問題が解消している
+        - [ ] 既存の主要フローが壊れていない
+        - [ ] 必要なテストまたは確認コマンドが通る
     validations:
       required: true
+
   - type: textarea
-    id: steps
+    id: scope
+    attributes:
+      label: 対象範囲・除外範囲
+      description: 今回触る範囲と、触らない範囲を分けて書いてください。
+      placeholder: |
+        対象:
+        - 問題が出ている画面、機能、ジョブ
+
+        除外:
+        - 今回は対応しない関連改善
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: 関連パス・URL
+      description: 画面 URL、リポジトリ内パス、関連 issue/PR、外部サービスを書いてください。
+      placeholder: |
+        - URL:
+        - パス:
+        - 関連 issue/PR:
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: 確認方法
+      description: 実行すべきコマンド、画面確認、ログ確認、生成物確認を書いてください。
+      placeholder: |
+        - npm run build
+        - pytest
+        - 対象画面をデスクトップ幅とモバイル幅で確認する
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: 現在の挙動
+      description: 実際に起きていることを書いてください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 期待する挙動
+      description: 本来どう動くべきかを書いてください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
     attributes:
       label: 再現手順
-      description: 最小限で確実に再現できる手順を書いてください。
+      description: 再現できる操作、条件、入力値を書いてください。
       placeholder: |
-        1. ...を開く
-        2. ...をクリックする
-        3. ...になる
-    validations:
-      required: true
-  - type: input
-    id: url
-    attributes:
-      label: 影響するURLまたはパス
-      placeholder: https://acecore.net/... または docs/...
+        1. 対象画面または機能を開く
+        2. 問題の操作を行う
+        3. 実際の結果を確認する
+
   - type: textarea
     id: environment
     attributes:
       label: 環境
-      description: ブラウザ、OS、端末、ロケール、パッケージバージョン、デプロイ環境など。
+      description: ブラウザ、OS、端末、ロケール、パッケージバージョン、デプロイ環境などを書いてください。
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 緊急度
+      options:
+        - 通常
+        - 高い
+        - 緊急
+    validations:
+      required: true
+
   - type: textarea
     id: notes
     attributes:
       label: 補足
-      description: スクリーンショット、ログ、関連リンクなど。
+      description: スクリーンショット、ログ、制約、期限、依存関係などがあれば書いてください。
