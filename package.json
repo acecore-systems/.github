@@ -1,0 +1,21 @@
+{
+  "name": "acecore-community-settings",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "check": "npm run format:check && npm run check:community && npm test",
+    "format:check": "prettier --check .",
+    "format": "prettier --write .",
+    "check:community": "node scripts/check-community.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "prettier": "3.9.6",
+    "remark-parse": "11.0.0",
+    "unified": "11.0.5",
+    "yaml": "2.9.1"
+  }
+}
