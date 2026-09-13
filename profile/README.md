@@ -1,50 +1,24 @@
 # Acecore
 
-システム開発・Web制作・サーバー運用・デザイン・IT教育を展開する
-**Acecore** の GitHub Organization です。
+Web・業務システム開発、IT教育、コミュニティ運営に取り組む株式会社AcecoreのGitHub Organizationです。
+公開プロジェクトのコードや設計文書を通じて、開発と運用の取り組みを紹介しています。
 
-公式サイトや技術ブログ、教育事業、コミュニティ運営、公開設計ドキュメントを
-通じて、Webと学びのための実用的な仕組みを整えています。
+[公式サイト](https://acecore.net/) · [お問い合わせ](https://acecore.net/contact/)
 
-## 事業内容
+## 公開プロジェクト
 
-- **業務システム・アプリ開発** — 業務効率化、データ管理、社内ツール、Webアプリケーションの企画・開発・運用
-- **Webサイト制作・運用** — コーポレートサイト、サービスサイト、ブログ、問い合わせ導線まで含めた制作・改善
-- **サーバー構築・運用** — 公開サーバーやWebサービスを支えるインフラ設計、運用、改善
-- **デザイン・クリエイティブ** — ロゴ、名刺、バナー、キャラクターなど、伝えたい価値を形にする制作
-- **IT教育 / Acecore Schools** — 子どもから大人までを対象にしたプログラミング・IT学習支援
-- **コミュニティ運営** — [Aceserver](https://asv.acecore.net/) など、技術と人がつながる場づくり
+| プロジェクト                                                            | 内容                                                       | 利用・閲覧                                                 |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| [acecore-net](https://github.com/acecore-systems/acecore-net)           | コーポレートサイト。サービスや技術ブログを公開しています。 | [公式サイト](https://acecore.net/)                         |
+| [acecore-schools](https://github.com/acecore-systems/acecore-schools)   | Acecore Schoolsの公式サイトと予約・会員ポータル。          | [Schools](https://schools.acecore.net/)                    |
+| [cms-ai](https://github.com/acecore-systems/cms-ai)                     | Sveltia CMS向けのAI会話・権限・PR実装を支える共通基盤。    | [README](https://github.com/acecore-systems/cms-ai#readme) |
+| [world-foundation](https://github.com/acecore-systems/world-foundation) | 自由参加・離脱・フォークができる協力基盤の公開設計文書。   | [閲覧サイト](https://world-foundation-site.pages.dev/)     |
 
-## 主要公開リポジトリ
+## 利用・参加する
 
-### [acecore-net](https://github.com/acecore-systems/acecore-net)
+- **利用する**: 上記のサイトやREADMEをご覧ください。Minecraftコミュニティは [Aceserver](https://asv.acecore.net/) で案内しています。
+- **不具合を報告する**: 対象プロジェクトのIssuesから報告してください。共通フォームでは「不具合」を使います。
+- **改善に参加する**: 対象プロジェクトのREADMEと貢献手順を確認し、IssueやPRで提案してください。共通フォームでは「タスク」を使います。共通の手順は [コントリビューションガイド](https://github.com/acecore-systems/.github/blob/main/CONTRIBUTING.md) にまとめています。
 
-Acecore のコーポレートサイトを管理するリポジトリです。Astro、UnoCSS、
-Cloudflare Pages を使い、サービス情報、スクール情報、ブログ、問い合わせ導線を
-静的サイトとして運用しています。
-
-- [公式サイト](https://acecore.net)
-- [サービス](https://acecore.net/services/)
-- [ブログ](https://acecore.net/blog/)
-- [プログラミングスクール](https://acecore.net/schools/)
-- [AceStudio](https://acecore.net/acestudio/)
-- [お問い合わせ](https://acecore.net/contact/)
-
-### [world-foundation](https://github.com/acecore-systems/world-foundation)
-
-自由参加・離脱可能・フォーク可能な協力基盤を考える公開設計ドキュメントです。
-社会制度や協力の仕組みを、Issue、Pull Request、Proposal、Decision、Glossary、
-Module へ分解し、ソフトウェア設計のようにレビューできる形で整理しています。
-
-- [基本設計](https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md)
-- [図表](https://github.com/acecore-systems/world-foundation/tree/main/assets/diagrams)
-- [提案](https://github.com/acecore-systems/world-foundation/tree/main/proposals)
-- [意思決定](https://github.com/acecore-systems/world-foundation/tree/main/decisions)
-- [用語集](https://github.com/acecore-systems/world-foundation/tree/main/glossary)
-
-## リンク
-
-- 🌐 [acecore.net](https://acecore.net)
-- 📝 [Acecore Blog](https://acecore.net/blog/)
-- 🎮 [Aceserver](https://asv.acecore.net/)
-- 📬 [お問い合わせ](https://acecore.net/contact/)
+事業のご相談は [お問い合わせ](https://acecore.net/contact/) へ。
+脆弱性の報告は公開Issueに投稿せず、対象repoの手順、または [共通セキュリティポリシー](https://github.com/acecore-systems/.github/blob/main/SECURITY.md) を確認してください。
