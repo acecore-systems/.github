@@ -10,6 +10,7 @@
 - `CONTRIBUTING.md`: 共通のコントリビューションガイド
 - `SECURITY.md`: 共通のセキュリティポリシー
 - `SUPPORT.md`: 共通のサポート案内
+- [PUBLIC_REPOSITORIES.md](PUBLIC_REPOSITORIES.md): 公開中のリポジトリ一覧と利用先
 - [REPOSITORY_POLICY.md](REPOSITORY_POLICY.md): レビュー・CMS更新・リポジトリ公開の共通運用方針
 - `.github/ISSUE_TEMPLATE/`: 共通の Issue フォーム
 - `.github/PULL_REQUEST_TEMPLATE.md`: 共通の Pull Request テンプレート

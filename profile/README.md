@@ -12,7 +12,10 @@ Web・業務システム開発、IT教育、コミュニティ運営に取り組
 | [acecore-net](https://github.com/acecore-systems/acecore-net)           | コーポレートサイト。サービスや技術ブログを公開しています。 | [公式サイト](https://acecore.net/)                         |
 | [acecore-schools](https://github.com/acecore-systems/acecore-schools)   | Acecore Schoolsの公式サイトと予約・会員ポータル。          | [Schools](https://schools.acecore.net/)                    |
 | [cms-ai](https://github.com/acecore-systems/cms-ai)                     | Sveltia CMS向けのAI会話・権限・PR実装を支える共通基盤。    | [README](https://github.com/acecore-systems/cms-ai#readme) |
-| [world-foundation](https://github.com/acecore-systems/world-foundation) | 自由参加・離脱・フォークができる協力基盤の公開設計文書。   | [閲覧サイト](https://world-foundation-site.pages.dev/)     |
+| [world-foundation](https://github.com/acecore-systems/world-foundation) | 自由参加・離脱・フォークができる協力基盤の公開設計文書。   | [閲覧サイト](https://world-foundation.acecore.net/)        |
+
+エースサーバーの [Portal](https://github.com/acecore-systems/aceserver-portal) と [Wiki](https://github.com/acecore-systems/aceserver-wiki) も公開しています。
+Webサイト、共通基盤、Minecraft関連を含む全体は [公開リポジトリ一覧](https://github.com/acecore-systems/.github/blob/main/PUBLIC_REPOSITORIES.md) をご覧ください。
 
 ## 利用・参加する
 
