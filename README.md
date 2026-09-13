@@ -10,6 +10,8 @@
 - `CONTRIBUTING.md`: 共通のコントリビューションガイド
 - `SECURITY.md`: 共通のセキュリティポリシー
 - `SUPPORT.md`: 共通のサポート案内
+- [PUBLIC_REPOSITORIES.md](PUBLIC_REPOSITORIES.md): 公開中のリポジトリ一覧と利用先
+- [REPOSITORY_POLICY.md](REPOSITORY_POLICY.md): レビュー・CMS更新・リポジトリ公開の共通運用方針
 - `.github/ISSUE_TEMPLATE/`: 共通の Issue フォーム
 - `.github/PULL_REQUEST_TEMPLATE.md`: 共通の Pull Request テンプレート
 
@@ -73,5 +75,6 @@ CIはPRと `main` へのpushで `community-check` を実行します。必須チ
 維持されていることを確認してください。テンプレートの確認だけでIssueを投稿する必要はありません。
 
 初回導入ではPRの `community-check` 成功後に、既存の `main` 保護へ同名チェックを必須として追加します。
-レビュー人数や管理者への適用など、他の保護項目は維持します。
+無関係な保護項目は変更しません。承認人数やPR必須設定の見直しは、
+[共通運用方針](REPOSITORY_POLICY.md)に沿って、CMS・AI作業の更新経路と両立することを確認します。
 チェックを改名する場合は、旧名の必須設定がマージを止めないよう、workflowと保護設定を一緒に見直します。
