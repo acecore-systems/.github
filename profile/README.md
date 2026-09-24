@@ -30,9 +30,17 @@
 - [cms-ai](https://github.com/acecore-systems/cms-ai) — Sveltia CMS向けのAI会話・権限・PR実装を支える共通基盤。
 - [codex-task-routing](https://github.com/acecore-systems/codex-task-routing) — Codexの作業分担と引継ぎを整えるポリシー。
 - [world-foundation](https://github.com/acecore-systems/world-foundation) — 自由参加・離脱・フォークができる協力基盤の公開設計文書。[Webで読む](https://world-foundation.acecore.net/)。
+- [world-foundation-site](https://github.com/acecore-systems/world-foundation-site) — 設計文書をWebで閲覧・検索するサイトの実装。
 - [.github](https://github.com/acecore-systems/.github) — Organizationプロフィールと共通のIssue・PR・セキュリティ案内。
 
-Minecraft関連のプラグインや素材を含む全体は、[公開リポジトリ一覧](https://github.com/acecore-systems/.github/blob/main/PUBLIC_REPOSITORIES.md)をご覧ください。利用・再配布の条件は各リポジトリのライセンスや素材ごとの案内をご確認ください。
+### Minecraftのツールと素材
+
+- [Aceguessr](https://github.com/acecore-systems/Aceguessr) — Minecraft向けのAceguessrプラグイン。
+- [CommonModal](https://github.com/acecore-systems/CommonModal) — サーバーからクライアントへフォームUIを表示するプラグイン・Mod。
+- [aceserver-minecraft-assets](https://github.com/acecore-systems/aceserver-minecraft-assets) — Aceserverで自動配布するMinecraft素材。
+- [dynmap](https://github.com/acecore-systems/dynmap) — MinecraftのWeb地図システムDynmapのfork。
+
+各リポジトリの用途と利用先は[公開リポジトリ一覧](https://github.com/acecore-systems/.github/blob/main/PUBLIC_REPOSITORIES.md)にもまとめています。利用・再配布の条件は各リポジトリのライセンスや素材ごとの案内をご確認ください。
 
 ## 利用・参加する
 
