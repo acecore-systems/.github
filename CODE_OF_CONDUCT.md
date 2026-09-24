@@ -1,4 +1,8 @@
-# 行動規範
+# 行動規範 / Code of Conduct
+
+[日本語](#日本語) · [English](#english)
+
+## 日本語
 
 Acecore の各プロジェクトは、実務的で敬意ある協働の場として運用します。
 Issue、Pull Request、レビュー、コメント、その他のプロジェクト上のやり取りに
@@ -29,3 +33,29 @@ Issue、Pull Request、レビュー、コメント、その他のプロジェク
 問題を見つけた場合は、リポジトリで案内されている適切な非公開連絡手段を使って
 ください。リポジトリ固有の案内がない場合は、Acecore のWebサイトにある
 お問い合わせフォームを利用してください。
+
+## English
+
+Acecore projects are places for practical and respectful collaboration. Everyone participating in Issues, pull requests, reviews, comments, or other project discussions must follow this code of conduct.
+
+### Expected behavior
+
+- Treat others with respect and communicate constructively.
+- Keep technical disagreements focused on the work, evidence, and tradeoffs.
+- Write public comments with future contributors and users in mind.
+- Explain the context and purpose of a proposed change so others can review it.
+- Respect privacy, confidential information, and legal boundaries.
+
+### Unacceptable behavior
+
+- Harassment, threats, personal attacks, or discriminatory language.
+- Disclosing personal or confidential information without clear permission.
+- Spam, repeated off-topic posts, or deliberate disruption.
+- Misrepresenting project decisions, affiliations, or contributors' intentions.
+- Using project spaces to coordinate abuse, attacks, or unsafe activities.
+
+### Enforcement and reporting
+
+Maintainers may edit, hide, or remove comments; close Issues or pull requests; restrict participation; or block accounts as needed to protect the project.
+
+Use the private contact method listed by the repository to report a concern. If there are no repository-specific instructions, use the [Acecore contact form](https://acecore.net/en/contact/).

@@ -1,59 +1,60 @@
-name: 不具合
-description: 表示崩れ、動作不良、ビルド失敗など
+name: 不具合 / Bug report
+description: 表示崩れ、動作不良、ビルド失敗など / Visual, behavior, or build issues
 title: "[不具合] "
 body:
   - type: textarea
     id: summary
     attributes:
-      label: 概要
-      description: 何が起きているかを1-3行で書いてください。
+      label: 概要 / Summary
+      description: 何が起きているかを1-3行で書いてください。 / Describe the issue in 1–3 lines.
       placeholder: |
         例: 料金ページのカードがモバイル幅で重なって表示される。
+        Example: Pricing cards overlap on a mobile screen.
     validations:
       required: true
 
   - type: textarea
     id: current
     attributes:
-      label: 現在の挙動
-      description: 実際に起きていることを書いてください。
+      label: 現在の挙動 / Current behavior
+      description: 実際に起きていることを書いてください。 / Describe what happens now.
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: 期待する挙動
-      description: 本来どう動くべきかを書いてください。
+      label: 期待する挙動 / Expected behavior
+      description: 本来どう動くべきかを書いてください。 / Describe what should happen.
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 再現手順
-      description: 分かる範囲で、再現できる操作や条件を書いてください。
+      label: 再現手順 / Steps to reproduce
+      description: 分かる範囲で、再現できる操作や条件を書いてください。 / Add the steps or conditions needed to reproduce the issue, if known.
       placeholder: |
-        1. 対象ページを開く
-        2. 問題の操作を行う
-        3. 実際の結果を確認する
+        1. 対象ページを開く / Open the affected page
+        2. 問題の操作を行う / Perform the action
+        3. 実際の結果を確認する / Observe the result
 
   - type: textarea
     id: done
     attributes:
-      label: 完了条件
-      description: 直ったと判断できる状態を書いてください。
+      label: 完了条件 / Done when
+      description: 直ったと判断できる状態を書いてください。 / Describe how to tell that the issue is fixed.
       placeholder: |
-        - [ ] 問題を再現した操作で正常に動く
-        - [ ] 関連する検証が通る
+        - [ ] 再現操作で正常に動く / The steps now work as expected
+        - [ ] 関連する検証が通る / Relevant checks pass
     validations:
       required: true
 
   - type: textarea
     id: context
     attributes:
-      label: 関連情報
-      description: URL、スクリーンショット、ログ、関連ファイルなどがあれば書いてください。
+      label: 関連情報 / Context
+      description: URL、スクリーンショット、ログ、関連ファイルなどがあれば書いてください。 / Add relevant URLs, screenshots, logs, or files.
       placeholder: |
         - URL:
-        - 関連ファイル:
+        - 関連ファイル / Related files:
