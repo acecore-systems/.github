@@ -35,6 +35,6 @@
 
 ## 一覧を更新するとき
 
-repoの公開状態やアーカイブ状態を変更した際は、この一覧と[Organizationプロフィール](profile/README.md)の導線を確認し、確認日を更新します。
+repoの公開状態やアーカイブ状態を変更した際は、この一覧と[Organizationプロフィール](profile/README.md)、各言語版の導線を確認し、確認日を更新します。
 GitHubの[Organizationリポジトリ一覧](https://github.com/orgs/acecore-systems/repositories)と照合して、追加・削除・リンク変更を反映してください。
 公開状態を変更する際の調査・確認手順は[共通運用方針](REPOSITORY_POLICY.md)を参照してください。

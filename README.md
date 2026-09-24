@@ -5,7 +5,8 @@
 
 ## 管理ファイル
 
-- `profile/README.md`: GitHub に表示される Organization プロフィール
+- `profile/README.md`: GitHub に表示される多言語の Organization プロフィールと公開リポジトリへの導線
+- `profile/README.<言語>.md`: 各言語の事業・公開プロジェクト・参加方法の詳細案内
 - `CODE_OF_CONDUCT.md`: 共通の行動規範
 - `CONTRIBUTING.md`: 共通のコントリビューションガイド
 - `SECURITY.md`: 共通のセキュリティポリシー
@@ -66,9 +67,10 @@ CIはPRと `main` へのpushで `community-check` を実行します。必須チ
 
 1. 最新の `origin/main` から専用branch/worktreeを作成し、他の未コミット作業を混ぜずに変更します。
 2. Issueは「不具合・タスク」の2種類を基本にし、必須入力やPR本文をむやみに増やしません。
-3. `npm run check` と `git diff --check` を実行し、変更した外部リンクの到達先も確認します。
-4. 日本語のdraft PRに変更理由・検証結果・適用先への影響を記載します。CI成功後にレビューを受けます。
-5. マージ後、Organizationの公開プロフィール、文書リンク、Issue選択画面とフォーム表示を確認します。
+3. 公開プロジェクトや事業の案内を変えた場合は、プロフィール本体と各言語版の内容を揃えます。
+4. `npm run check` と `git diff --check` を実行し、変更した外部リンクの到達先も確認します。
+5. 日本語のdraft PRに変更理由・検証結果・適用先への影響を記載します。CI成功後にレビューを受けます。
+6. マージ後、Organizationの公開プロフィール、文書リンク、Issue選択画面とフォーム表示を確認します。
 
 継承確認には、共通Issue設定を使う `homepage-hatt` と、独自設定を持つ `acecore-net` を使います。
 確認時に各repoのデフォルトブランチの設定を読み、前者には共通変更が反映され、後者の独自フォームは
