@@ -1,13 +1,13 @@
-関連 Issue: なし
+関連 Issue / Related Issue: なし / None
 
-## 概要
-
--
-
-## 確認
+## 概要 / Summary
 
 -
 
-## 補足
+## 確認 / Verification
 
-なし
+-
+
+## 補足 / Notes
+
+なし / None

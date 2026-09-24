@@ -1,4 +1,8 @@
-# サポート
+# サポート / Support
+
+[日本語](#日本語) · [English](#english)
+
+## 日本語
 
 プロジェクト固有の相談や作業依頼は、各リポジトリの Issue テンプレートを
 利用してください。
@@ -13,3 +17,16 @@
 https://acecore.net/contact/
 
 セキュリティ報告は [セキュリティポリシー](https://github.com/acecore-systems/.github/blob/main/SECURITY.md) に従い、公開の場には投稿しないでください。リポジトリ固有の手順がある場合は、そちらを優先してください。
+
+## English
+
+For project-specific questions and work requests, use the repository's Issue forms:
+
+- **Bug report:** Describe the current and expected behavior, what would count as fixed, and reproduction steps when available.
+- **Task:** Use for improvements, features, documentation, content, CMS, or operations work. Describe the request and completion criteria, plus relevant paths, languages, or pages when available.
+
+If unsure, use **Task**. Follow repository-specific forms when they exist.
+
+For business inquiries or questions about a website, use the [official contact form](https://acecore.net/en/contact/).
+
+For vulnerabilities, follow the [security policy](https://github.com/acecore-systems/.github/blob/main/SECURITY.md). Do not report them publicly. Repository-specific reporting instructions take precedence.

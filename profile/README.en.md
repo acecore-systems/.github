@@ -46,6 +46,6 @@ Check each repository's license and asset guidance before using or redistributin
 ## Use and contribute
 
 - **Report bugs or suggest improvements:** Read the repository's README and open an Issue there.
-- **Contribute code or documentation:** Follow the repository's instructions and the [contribution guide](https://github.com/acecore-systems/.github/blob/main/CONTRIBUTING.md), then propose an Issue or pull request.
+- **Contribute code or documentation:** Follow the repository's instructions and the [contribution guide](https://github.com/acecore-systems/.github/blob/main/CONTRIBUTING.md#english), then propose an Issue or pull request.
 - **Discuss business or partnerships:** Use the [contact form](https://acecore.net/en/contact/).
-- **Report a vulnerability:** Do not post it in a public Issue. Follow the repository's instructions or the [shared security policy](https://github.com/acecore-systems/.github/blob/main/SECURITY.md).
+- **Report a vulnerability:** Do not post it in a public Issue. Follow the repository's instructions or the [shared security policy](https://github.com/acecore-systems/.github/blob/main/SECURITY.md#english).
