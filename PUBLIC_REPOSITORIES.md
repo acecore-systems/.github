@@ -1,6 +1,6 @@
 # 公開リポジトリ一覧
 
-2026-09-13時点の `acecore-systems` の公開中・非アーカイブの14リポジトリです。
+2026-09-25時点の `acecore-systems` の公開中・非アーカイブの15リポジトリです。
 導入方法や貢献手順は各repoの文書を参照してください。利用・再配布の条件は、各repoのLICENSEや素材ごとの案内を確認してください。
 
 ## Webサイト・コミュニティ
@@ -16,12 +16,13 @@
 
 ## 共通基盤・設計資料
 
-| リポジトリ                                                                        | 内容                                                        | 利用・閲覧                                                 |
-| --------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------- |
-| [.github](https://github.com/acecore-systems/.github)                             | Organizationプロフィール、共通テンプレート、運用方針。      | [README](README.md)                                        |
-| [cms-ai](https://github.com/acecore-systems/cms-ai)                               | Sveltia CMS向けのAI会話・権限・PR実装を支える共通基盤。     | [README](https://github.com/acecore-systems/cms-ai#readme) |
-| [world-foundation](https://github.com/acecore-systems/world-foundation)           | 自由参加・離脱・フォークができる協力基盤の設計資料。        | [資料を読む](https://world-foundation.acecore.net/)        |
-| [world-foundation-site](https://github.com/acecore-systems/world-foundation-site) | `world-foundation`の資料をWebで閲覧・検索するサイトの実装。 | [閲覧サイト](https://world-foundation.acecore.net/)        |
+| リポジトリ                                                                        | 内容                                                        | 利用・閲覧                                                             |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [.github](https://github.com/acecore-systems/.github)                             | Organizationプロフィール、共通テンプレート、運用方針。      | [README](README.md)                                                    |
+| [cms-ai](https://github.com/acecore-systems/cms-ai)                               | Sveltia CMS向けのAI会話・権限・PR実装を支える共通基盤。     | [README](https://github.com/acecore-systems/cms-ai#readme)             |
+| [codex-task-routing](https://github.com/acecore-systems/codex-task-routing)       | Codexの作業分担と引継ぎを整えるポリシー。                   | [README](https://github.com/acecore-systems/codex-task-routing#readme) |
+| [world-foundation](https://github.com/acecore-systems/world-foundation)           | 自由参加・離脱・フォークができる協力基盤の設計資料。        | [資料を読む](https://world-foundation.acecore.net/)                    |
+| [world-foundation-site](https://github.com/acecore-systems/world-foundation-site) | `world-foundation`の資料をWebで閲覧・検索するサイトの実装。 | [閲覧サイト](https://world-foundation.acecore.net/)                    |
 
 ## Minecraft関連
 
