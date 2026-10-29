@@ -13,6 +13,7 @@
 - `SUPPORT.md`: 共通のサポート案内
 - [PUBLIC_REPOSITORIES.md](PUBLIC_REPOSITORIES.md): 公開中のリポジトリ一覧と利用先
 - [REPOSITORY_POLICY.md](REPOSITORY_POLICY.md): レビュー・CMS更新・リポジトリ公開の共通運用方針
+- [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md): READMEの共通項目、構成・ブランチ・worktreeの整理基準
 - `.github/ISSUE_TEMPLATE/`: 共通の Issue フォーム
 - `.github/PULL_REQUEST_TEMPLATE.md`: 共通の Pull Request テンプレート
 
