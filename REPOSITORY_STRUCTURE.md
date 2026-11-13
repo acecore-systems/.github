@@ -25,6 +25,7 @@
 ## ディレクトリの整理
 
 - 既存の framework やツールが期待する構成を優先し、一律に `src/` へ移しません。
+- リポジトリの新設や dependency manifest・workflow の追加時は、そのリポジトリの `.github/dependabot.yml` で対応する ecosystem と directory を確認します。更新対象がなければ、その理由を README または運用文書に明記します。この `.github` リポジトリの Dependabot 設定は他のリポジトリへ自動継承されません。
 - 継続的に参照する設計・運用手順は既存の文書置場を使い、README から案内します。新設する場合は `docs/` を基本とします。
 - 一時作業は `.tmp/<task>/`、検証記録は `outputs/<task>/` にまとめることを基本とし、既存の保存先や追跡方針がある場合はそれを尊重します。
 - 別リポジトリ、worktree、submodule を通常の資料フォルダとして親に取り込みません。
